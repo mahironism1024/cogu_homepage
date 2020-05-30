@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'myFont';
+  src: url('../font/SatsukiGendaiMincho-M.ttf');
+}
+
+body {
+  width: 0 auto;
+  font-family: "myFont";
+  height: 1000vh;
+}
+
+.backimage {
+  background-image: url('../images/IMG_5790.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto 0;
+  height: 100vh;
+}
+
+.cogu-image {
+  background-image: url('../images/cogu_1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: 0 auto;
+  width: 280px;
+  height: 100vh;
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px;
+  width: 100%;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #38211E;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.flex-left {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.flex-center {
+  flex-basis: auto;
+ text-align: center;
+}
+
+.flex-right {
+  text-align: right;
+}
+
+.flex-side {
+  width: 200px;
+}
+
+@media screen and (max-widht: 768px) {
+  
+}
