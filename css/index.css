@@ -12,7 +12,7 @@ body {
 }
 
 .backimage {
-  background-image: url('../images/IMG_5790.JPG');
+  background-image: url('../images/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 }
 
 .cogu-image {
-  background-image: url('../images/cogu_1.png');
+  background-image: url('../images/cogu.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
