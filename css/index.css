@@ -63,6 +63,6 @@ body {
   width: 200px;
 }
 
-@media screen and (max-widht: 768px) {
-  
+.brand-logo {
+  width: 200px;
 }
