@@ -62,3 +62,7 @@ body {
 .flex-side {
   width: 200px;
 }
+
+.flex-side img {
+  width: fit-content;
+}
